@@ -1,0 +1,93 @@
+h1 {
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+
+#with-filler {
+    background: beige;
+}
+
+/* Allows for in-window vertical scroll */
+#scroll-list{
+    overflow:scroll;
+    height:calc(100vh - 181px);
+    overflow-x: hidden;
+}
+
+/* Generates the challenger list loading animation */
+#spinner1 {float:left;}
+
+/* Used to style header bar */
+#header-bar {
+    background-color:#212121;
+    color:#FFFFFF;
+    min-height:80px;
+}
+
+/* Used to align "About" and "Changelog" menu items */
+#menu-item {
+    text-color: white;
+    text-align: center;
+    padding-top:23px;
+}
+
+/* Remove margins and stripes from Player nested table */
+.table-nested {
+    margin-bottom: 0px;
+}
+
+.table table-nested {
+    padding-left: 0px;
+}
+
+.table-nested tbody tr td {
+    border-top: none;
+    font-size: 13px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.table-nested thead tr th {
+    border-bottom: none;
+}
+
+.table tbody tr td {
+    padding: 4px;
+    line-height: 28px;
+}
+
+p {
+    margin: 0 0 0;
+}
+.table tbody tr th {
+    border-top: 0;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 4px;
+}
+.small-icon {
+    width: 28px;
+    height: 28px;
+    opacity:0.85;
+    border-radius:6px;
+    text-align: center;
+}
+
+
+
+.side-column {
+    padding-left: 2px;
+    padding-right: 2px;
+}
